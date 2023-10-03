@@ -1,0 +1,39 @@
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--main-button-back-color);
+  }
+}
+@keyframes writing-head {
+  0% {
+    width: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+}
+@keyframes p {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes to-left {
+  100% {
+    left: -100%;
+  }
+}
